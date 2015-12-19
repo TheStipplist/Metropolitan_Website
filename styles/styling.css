@@ -1,0 +1,398 @@
+
+		* {
+    	padding: 0;
+    	margin: 0;
+    	font-family: Bangers;
+    	color: white;
+		}
+
+/*-----------------------MAIN BOUNDARIES-------------------*/
+
+		.main {
+			text-shadow: 10px 10px 5px black;
+			background-image: url(../images/metropolitanCharacterSelect.svg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			padding: 2%;
+		}
+		.border-box {
+			display: grid;
+			border-image-source: url(../images/characterSelectBorder.png);
+			border-image-slice: 65 65 65 65;
+			border-width: 6vw; 
+		}
+			.grid__flash {
+				display: grid;
+				background-size: cover;
+				border: 3px solid rgba(131,178,255, .5);
+				background-image: url(../images/metropolitanCharacterSelectGrid.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+			.grid {
+				display: grid;
+				background-size: cover;
+				border: 3px solid rgba(131,178,255, .75);
+				background-image: url(../images/metropolitanCharacterSelectGrid.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+			p {
+				text-indent: 5%;
+				margin: .6vw;
+			}
+/*-----------------------HEADING START---------------------------*/
+			.heading {
+				width: 100%;
+				box-sizing: border-box;
+				border-bottom: .5vw solid white;
+				padding-bottom: 5%;
+			}
+					.main__heading--titlecard {
+						float: left;
+						width: 50%;
+						box-sizing: border-box;
+					}
+					.heading__links {
+						display: grid-column;
+						width: 50%;
+						float: right;
+						box-sizing: border-box;
+						padding: 1% 0%;
+						font-size: 3vw;
+						border-bottom: .5vw solid white;
+					}
+
+					.heading__links--top {
+						padding: 10px 10px;
+						
+					}
+					.character__heading--links {
+						padding-top: 5%;
+						text-align: center;
+						width: 100%;
+						font-size: 2vw;
+						clear: both;
+					}
+						.character__links {
+							padding: .5% 3%;
+						}
+						.world {
+							border-bottom: .5vw solid white;
+							border-left: .5vw solid white;
+						}
+
+						.startreading {
+							border-bottom: .5vw solid white;
+							border-right: .5vw solid white;
+						}
+			.heading:after {
+  				content: "";
+  				display: table;
+  				clear: both;
+			}
+
+
+
+/*---------------------START CHARACTER BODIES--------------------------*/
+
+
+					.central1,
+					.central2,
+					.central3,
+					.central4 {
+						display: none;
+						box-sizing: border-box;
+						
+					}
+				
+						.central__Sonny--heading,
+						.central__Cheryl--heading,
+						.central__Oliver--heading,
+						.central__Moloch--heading,
+						.central__Richard--heading {
+							width: 100%;
+							box-sizing: border-box;
+							font-size: 7vw;
+							padding-top: 3%;
+						}
+
+					.central__Sonny {
+							
+							padding-top: 2.5%;
+							float: left;
+							width: 39%;
+							box-sizing: border-box;
+							font-size: 2.6vw;
+						}
+			
+					.central__Cheryl {
+							
+							padding-top: 2.5%;
+							float: left;
+							width: 50%;
+							box-sizing: border-box;
+							font-size: 2.6vw;
+					}
+					.central__Oliver {
+						padding-top: 2.5%;
+						float: left;
+						width: 39%;
+						box-sizing: border-box;
+						font-size: 2.6vw;
+					}
+					.central__Moloch {
+							
+							padding-top: 2.5%;
+							float: left;
+							width: 40%;
+							box-sizing: border-box;
+							font-size: 2.6vw;
+							
+					}
+					.central__Richard {
+							;
+							padding-top: 2.5%;
+							float: left;
+							width: 39%;
+							box-sizing: border-box;
+							font-size: 2.6vw;
+					}
+
+
+					.central__image--Sonny {
+							float: right;
+							width: 60%;
+							box-sizing: border-box;
+					}
+					.central__image--Cheryl {
+						float: right;
+						width: 40%;
+						box-sizing: border-box;
+					}
+					
+					.central__image--Oliver {
+						float: right;
+						width: 60%;
+						box-sizing: border-box;
+					}
+					.central__image--Moloch {
+							float: right;
+							width: 60%;
+							box-sizing: border-box;
+					}
+					.central__image--Richard {
+							float: right;
+							width: 60%;
+							box-sizing: border-box;
+					}
+						
+					.central:after,
+					.central1:after,
+					.central2:after,
+					.central3:after,
+					.central4:after {
+						content: "";
+  						display: table;
+  						clear: both;
+					}
+
+
+
+
+	/*-----------------START AUTHOR PAGE---------------------*/
+.author__content {
+	padding-top: 5%;
+	display: none;
+	width: 100%;
+	box-sizing: border-box;
+}
+	.author__description {
+		text-indent: 5%;
+		float: left;
+		font-size: 1.9vw;
+		width: 40%;
+		box-sizing: border-box;
+	}
+		.author__images {
+			width: 55%;
+			float: right;
+		}
+.author__content:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+	/*----------------START WORLD PAGE---------------------*/
+
+	.world__content {
+		display: none;
+		width: 100%;
+		box-sizing: border-box;
+		padding-top: 5%;
+	}
+		.world__description {
+			float: left;
+			width: 50%;
+			font-size: 1.9vw;
+		}
+		.world__animation {
+			float: right;
+			width: 50%;
+		}
+	.world__content:after {
+		content: "";
+  		display: table;
+  		clear: both;
+	}
+
+					
+@media only screen and (min-width: 0px) and (max-width: 680px) {
+	* {
+		padding: 0%;
+		margin: 0%;
+	}
+
+/*------------HEADING START----------------------*/
+
+	.heading {
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.main__heading--titlecard {
+		width: 100%;
+	}
+	.heading__links {
+		width: 100%;
+		font-size: 5.5vw;
+		padding: 5vw 0vw;
+	}
+	.character__heading--links {
+		font-size: 5.5vw;
+		padding-top: 4vw;
+
+	}
+/*----------BODY START----------*/
+	.central {
+		width: 100%;
+	}
+	.left__content--Sonny {
+		width: 100%;
+	}
+	.central__Sonny--heading,
+	.central__Cheryl--heading,
+	.central__Oliver--heading,
+	.central__Moloch--heading,
+	.central__Richard--heading {
+		width: 100%;
+		font-size: 9vw;
+	}
+	.central__Sonny,
+	.central__Cheryl,
+	.central__Oliver,
+	.central__Moloch,
+	.central__Richard {
+		width: 100%;
+		font-size: 4.7vw;
+
+	}
+	.central__image--Sonny,
+	.central__image--Cheryl,
+	.central__image--Oliver,
+	.central__image--Moloch,
+	.central__image--Richard {
+		width: 100%;
+	}
+
+
+/*----------------AUTHOR START-----------------*/
+
+	.author__description{
+		width: 100%;
+		font-size: 4vw;
+	}
+	.author__images {
+		padding-top: 5vw;
+		width: 100%;
+	}
+	.world__content {
+		display: none;
+		width: 100%;
+		box-sizing: border-box;
+		padding-top: 5%;
+	}
+
+/*---------------WORLD START------------------*/
+		.world__description {
+			float: left;
+			width: 100%;
+			font-size: 4vw;
+		}
+		.world__animation {
+			float: right;
+			width: 100%;
+		}
+}
+
+
+
+
+
+@media only screen and (min-width: 680px) and (max-width: 1560px) {
+	* {
+		padding: 0%;
+		margin: 0%;
+	}
+
+/*---------------HEADING START---------------*/
+
+	.heading__title {
+		box-sizing: border-box;
+
+	}
+	.heading__links {
+		width: 50%;
+
+	}
+
+/*-------------BODY START--------------------*/
+
+	.central__Sonny--heading,
+	.central__Cheryl--heading,
+	.central__Oliver--heading,
+	.central__Moloch--heading,
+	.central__Richard--heading {
+		width: 100%;
+
+	}
+	.central__Sonny,
+	.central__Cheryl,
+	.central__Oliver,
+	.central__Moloch,
+	.central__Richard {
+		width: 100%;
+	}
+	.character__heading--links {
+		font-size: 3.5vw;
+	}	
+	.central__image--Sonny,
+	.central__image--Cheryl,
+	.central__image--Oliver,
+	.central__image--Moloch,
+	.central__image--Richard {
+		width: 100%;
+	}
+	.left__content--Sonny {
+		width: 100%
+
+		
+	}
+
+
+	}
+
+
+
+
+
